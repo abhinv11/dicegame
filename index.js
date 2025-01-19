@@ -29,4 +29,9 @@ if (randomNumber1 > randomNumber2){
     document.getElementsByTagName("h1")[0].textContent = "Tie Please refresh again"
 }
 
+// JavaScript function to refresh the page
+function refreshPage() {
+    location.reload();
+}
+
  
